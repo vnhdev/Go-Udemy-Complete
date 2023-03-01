@@ -39,7 +39,7 @@ func (d deck) toString() string {
 	return strings.Join(d, ",")
 }
 
-func (d deck) saveToFile(filename string) error {
+func (d deck) SaveToFile(filename string) error {
 	return ioutil.WriteFile(filename, []byte(d.toString()), 0666)
 }
 
