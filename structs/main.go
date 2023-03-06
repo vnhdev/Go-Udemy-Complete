@@ -21,8 +21,7 @@ func main() {
 			email:   "wingsolobot@gmail.com",
 			zipCode: 700000},
 	}
-	vinhPointer := &vinh
-	vinhPointer.updateName("Phong")
+	vinh.updateName("Phong")
 	vinh.print()
 }
 
